@@ -68,7 +68,7 @@ io.on('connection', function(client){
 
 function sendTelegramMessage(chatId, text, parseMode) {
     request
-        .post('https://api.telegram.org/bot' + process.env.https://api.telegram.org/bot566292794:AAE4dk66D5OPqHXg0fu2XcvQAFYq4-bIqTg/setWebhook?url=https://alamudy-gram.herokuapp.com/hook + '/sendMessage')
+        .post('https://api.telegram.org/bot' + process.env.566292794:AAE4dk66D5OPqHXg0fu2XcvQAFYq4-bIqTg + '/sendMessage')
         .form({
             "chat_id": chatId,
             "text": text,
